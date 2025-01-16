@@ -3,7 +3,6 @@ import random
 def chatbot():
     print("Welcome to the food ordering chatbot!")
 
-    # Collecting user's name and age
     name = input("What is your name? ")
     while True:
         try:
@@ -16,7 +15,6 @@ def chatbot():
 
     order_history, order_status, order_time = [], {}, {}
 
-    # Menu of options
     options = ["1. View the menu", "2. Place an order", "3. Check how much longer your food will take", "4. Exit"]
     
     while True:
